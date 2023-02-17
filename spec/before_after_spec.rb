@@ -1,7 +1,19 @@
 RSpec.describe 'befor and after methods' do
 
+    before(:context) do
+        puts 'before the context'
+    end
+
+    after(:context) do
+        puts 'after the context'
+    end
+
     before(:each) do
         puts 'before math'
+    end
+
+    after(:each) do
+        puts 'after math'
     end
     
     it 'times math' do
