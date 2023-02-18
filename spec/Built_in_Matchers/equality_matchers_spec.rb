@@ -12,7 +12,8 @@ RSpec.describe 'equality matchers' do
 
   context 'eql matcher' do
     it 'test value and the type' do
-      expect(a).to eql(3)
+      expect(a).to eql(3.0)
+      expect(b).to eql(3)
     end
   end
 end

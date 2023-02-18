@@ -1,7 +1,7 @@
 example_id                                                | status | run_time        |
 --------------------------------------------------------- | ------ | --------------- |
-./spec/Built_in_Matchers/equality_matchers_spec.rb[1:1:1] | failed | 0.00609 seconds |
-./spec/Built_in_Matchers/equality_matchers_spec.rb[1:2:1] | passed | 0.00005 seconds |
+./spec/Built_in_Matchers/equality_matchers_spec.rb[1:1:1] | passed | 0.00021 seconds |
+./spec/Built_in_Matchers/equality_matchers_spec.rb[1:2:1] | passed | 0.00017 seconds |
 ./spec/Built_in_Matchers/not_to_method_spec.rb[1:1]       | passed | 0.00021 seconds |
 ./spec/Subjects_Shareds/described_class_spec.rb[1:1:1]    | passed | 0.00006 seconds |
 ./spec/Subjects_Shareds/described_class_spec.rb[1:2:1]    | passed | 0.00021 seconds |
