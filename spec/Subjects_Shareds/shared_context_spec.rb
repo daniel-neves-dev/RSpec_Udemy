@@ -23,5 +23,17 @@ RSpec.describe 'first example group' do
   it 'can share methods' do
     expect(some_method).to eq(5)
   end
+end
   
+  RSpec.describe 'second example group in a diferent file' do
+    include_context 'common' 
+
+    it 'can share let variables' do
+      expect(some_variable).to eq([1,2,3])
+      expect(some_variable.length).to eq(3)
+    end
+
+    it 'also can share methods' do
+      expect(some_method).to eq(5)
+    end
 end
