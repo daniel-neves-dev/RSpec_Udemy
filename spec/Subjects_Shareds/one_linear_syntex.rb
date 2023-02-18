@@ -8,6 +8,6 @@ RSpec.describe 'shorthand syntax ' do
   end
 
   context 'with one line syntax' do
-    it{is_expected.to eq(5)}
+    it{is_expected.to eq(5)} #Only work with subject syntax
   end
 end
